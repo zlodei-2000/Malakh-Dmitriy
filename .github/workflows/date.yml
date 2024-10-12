@@ -1,4 +1,4 @@
-name: Print Current Time DM
+name: Print Current Date DM
 
 on:
   push:
@@ -14,6 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Print current time
+      - name: Print current date
         run: |
-          echo "Current time is: $(date +%D)"
+          echo "Current date is: $(date +%D)"
