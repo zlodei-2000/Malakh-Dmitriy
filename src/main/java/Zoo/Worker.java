@@ -1,4 +1,4 @@
-package zoo;
+package Zoo;
 
 import Animals.*;
 import Food.*;
