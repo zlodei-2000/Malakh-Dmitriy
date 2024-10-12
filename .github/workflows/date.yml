@@ -1,0 +1,19 @@
+name: Print Current Time
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  print-time:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print current time
+        run: |
+          echo "Current time is: $(date +%D)"
