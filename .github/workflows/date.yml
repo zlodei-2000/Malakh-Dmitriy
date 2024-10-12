@@ -1,4 +1,4 @@
-name: Print Current Time
+name: Print Current Time DM
 
 on:
   push:
