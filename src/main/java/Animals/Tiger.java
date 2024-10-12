@@ -1,6 +1,6 @@
-package main.java.Animals;
+package Animals;
 
-import main.java.Food.*;
+import Food.*;
 
 public class Tiger extends Carnivorous implements Swim, Voice, Walk, Sleep {
 

@@ -1,7 +1,7 @@
-package main.java;
+package main;
 
-import main.java.Animals.*;
-import main.java.Food.*;
+import Animals.*;
+import Food.*;
 
 public class Main {
 
