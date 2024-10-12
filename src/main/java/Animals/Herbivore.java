@@ -1,4 +1,4 @@
-package main.java.Animals;
+package Animals;
 
 public abstract class Herbivore extends Animal {
 }
